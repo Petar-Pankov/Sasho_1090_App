@@ -1,0 +1,23 @@
+    h1 { 
+        color: cornflowerblue; 
+        font-size: 50px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    #text{
+        font-weight: bolder;
+        color: darkolivegreen;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-style: outset;
+        border-color: lightslategrey;
+    }
+    #footer {
+            padding-top: 420px;
+            text-align: center;
+    }
+    a:hover {
+        color: darkgoldenrod;
+    }

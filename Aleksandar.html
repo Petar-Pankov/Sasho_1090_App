@@ -26,33 +26,62 @@
         </table>
         <div>Registration</div>
         <form action="file:///C:/Users/lenovo/Desktop/work%20html/Sasho_1090_App/Untitled2.html" method="GET" target="_blank">Log in
-            <div>Text
-                <input type="text" placeholder="Enter your name" name="username">  
+            <div>
+                <label for="">Text</label>
+                <input type="text" placeholder="Enter your name" name="username" autofocus="autofocus">  
                 <input type="Password" placeholder="Enter pasword" name="passord"> 
                 <input type="reset" value="Reset">
                 <input type="submit" value="Enter">
+                <!-- tabindex"fn" - Когато в страницата се натисне таб, се сменят полетата, без да се налага да се маркира с мишката. Слага се вътре в inpit-->
             </div>
-            <div>Text
+            <div>
+                <label for="">Text</label>
                 <input type="text" placeholder="Enter what you see">
                 <input type="image" src="register.png" name="Push" width="100" value="PUSH">
                 <input type="button" value="My button">
             </div> 
-            <div>Check correct
-                <input type="checkbox" name="check" value="1">
-                <input type="checkbox" name="check" value="2">
-                <input type="checkbox" name="check" value="3">
+            <div>
+                <label>
+                    <input type="checkbox" name="check" value="1">
+                   choice 1
+                </label>
+                <input id="1" type="checkbox" name="check" value="2">
+                <label for="1">choice 2</label>
+                <input type="checkbox" name="check" value="3" id="1">choice 3
             </div>
-            <div>Check correct
-                <input type="radio" name="radio" value="male">
-                <input type="radio" name="radio" value="female">
-                <input type="radio" name="radio" value="other">
+            <div>
+                <span>Check correct</span>
+                <label>
+                    <input type="radio" name="radio" value="male" id="male">
+                    <span>Male</span>
+                </label>
+                <input type="radio" name="radio" value="female" id="female"> 
+                <label for="female">
+                    <span>Female</span>
+                </label>
+                <input type="radio" name="radio" value="other"> <span>Other</span>
             </div>
-            <div>Choice
-                <select name="City"Choice>
+            <fieldset>
+                <legend>Choice</legend >
+                <select name="City" value="Choice">
                     <option value="Sofia">Sofia</option>
                     <option value="Plovdiv">Plovdiv</option>
                     <option value="Sliven">Sliven</option>
                 </select>
+            </fieldset>
+            <div>
+                <input type="date">
+                <input type="time">
+                <input type="range" min="1" max="100">
+                <input type="number" min="1" max="100">
+           </div>
+           <div>
+                <input type="email" name="email" placeholder="Email" >
+                <input type="button" name="button" value="Sign in">
+           </div>
+           <div>
+               <input type="url" name="url" placeholder="URL">
+               <input type="button" name="url" value="Sign in">
             </div>
         </form>  
         <footer></footer>

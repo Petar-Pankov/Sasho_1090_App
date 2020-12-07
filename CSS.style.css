@@ -1,64 +1,73 @@
-        body {
-            color: darkgoldenrod;
-        }
-        h1 { 
-            color: darkolivegreen; 
-            font-size: 30px;
-            font-weight: lighter;
-            text-align: center;
-        }
-        h2 {
-            color: darkolivegreen; 
-            font-size: 25px;
-            font-weight: lighter;
-            align-self: center;
-        }
-        div#text:first-letter {
-            font-size: 30px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .main {
-            background-color: #ddd;
-            border-radius: 10px;
-        }
-        .div {
-            display: flex;
-            flex-direction: column;
-        }
-        #text{
-            font-weight: bolder;
-            color: darkolivegreen;
-            font-size: 20px;
-            text-align: center;
-            border-style: outset;
-            border-width: 1px;
-            border-color: lightslategrey;
-            font-family: serif;
-            border-radius: 10px;
-            position: relative;
-            top: 10px;
-            margin-bottom: 30px;
-            width: 400px;
-            align-self: center;
-        }
-        #first {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px black;
-
-        }
-        footer {
-            text-align: center;
-
-        }
-        footer a{
-            text-decoration: none;
-            color: darkolivegreen;
-            font-weight: bold;
-        }
-        a:hover {
-            color: darkgoldenrod;
-        }
+body {
+    color: darkgoldenrod;
+}
+h1 { 
+    color: darkolivegreen; 
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2 {
+    color: darkolivegreen; 
+    font-size: 25px;
+    font-weight: lighter;
+    align-self: center;
+    margin-top: 0%;
+}
+div.text:first-letter {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-weight: bolder;
+    color: darkolivegreen;
+    font-size: 20px;
+    text-align: center;
+    border-style: outset;
+    border-width: 1px;
+    border-color: darkolivegreen;
+    font-family: serif;
+    border-radius: 10px;
+    position: relative;
+    top: 1%;
+    margin-bottom: 10%;
+    width: 90%;
+    align-self: center;
+}
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.main-div{
+        display: flex;
+        flex-direction: row;
+    }
+.facebook{
+    text-decoration: none;
+    color: d#196edd;
+    font-weight: bold;
+}
+.instagram{
+    text-decoration: none;
+    color: #af1c23;
+    font-weight: bold;
+}
+a:hover {
+    color: darkgoldenrod;
+}
+footer {
+    text-align: center;
+}

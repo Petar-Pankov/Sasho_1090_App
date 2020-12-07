@@ -1,37 +1,39 @@
+        body {
+            color: darkgoldenrod;
+        }
         h1 { 
-            color: cornflowerblue; 
+            color: darkolivegreen; 
             font-size: 30px;
             font-weight: lighter;
             text-align: center;
         }
         h2 {
-            color: cornflowerblue; 
+            color: darkolivegreen; 
             font-size: 25px;
             font-weight: lighter;
-            text-align: center;
+            align-self: center;
         }
         #text{
             font-weight: bolder;
             color: darkolivegreen;
             font-size: 20px;
             text-align: center;
-            padding-left: 100px;
-            padding-right: 100px;
-            margin-bottom: 20px;
             border-style: outset;
             border-width: 1px;
             border-color: lightslategrey;
             font-family: serif;
             border-radius: 10px;
+            position: relative;
+            top: 10px;
+            margin-bottom: 30px;
+            width: 400px;
+            align-self: center;
         }
         #footer {
-            text-align: center;
+            text-align: center;        
         }
         a:hover {
             color: darkgoldenrod;
-        }
-        .one {
-            margin-bottom: 20px;     
         }
         #first {
             display: block;
@@ -40,12 +42,6 @@
             width: 30%;
             border-radius: 10px
         }
-        input[type=text] {
-            color:cornflowerblue;
-        }
-        input[type=password] {
-            color: cornflowerblue;
-        }
         div#text:first-letter {
             font-size: 30px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,4 +49,8 @@
         .main {
             background-color: #ddd;
             border-radius: 10px;
+        }
+        .div {
+            display: flex;
+            flex-direction: column;
         }

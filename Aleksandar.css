@@ -1,0 +1,9 @@
+.one {
+    margin-bottom: 20px;     
+}
+input[type=text] {
+    color:cornflowerblue;
+}
+input[type=password] {
+    color: cornflowerblue;
+}

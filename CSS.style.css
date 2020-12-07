@@ -13,6 +13,18 @@
             font-weight: lighter;
             align-self: center;
         }
+        div#text:first-letter {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main {
+            background-color: #ddd;
+            border-radius: 10px;
+        }
+        .div {
+            display: flex;
+            flex-direction: column;
+        }
         #text{
             font-weight: bolder;
             color: darkolivegreen;
@@ -29,12 +41,6 @@
             width: 400px;
             align-self: center;
         }
-        #footer {
-            text-align: center;        
-        }
-        a:hover {
-            color: darkgoldenrod;
-        }
         #first {
             display: block;
             margin-left: auto;
@@ -42,15 +48,9 @@
             width: 30%;
             border-radius: 10px
         }
-        div#text:first-letter {
-            font-size: 30px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        #footer {
+            text-align: center;        
         }
-        .main {
-            background-color: #ddd;
-            border-radius: 10px;
-        }
-        .div {
-            display: flex;
-            flex-direction: column;
+        a:hover {
+            color: darkgoldenrod;
         }
